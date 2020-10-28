@@ -1,0 +1,175 @@
+* {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+li {
+    /*haalt puntjes weg van de li en zet ze niet meer onder elkaar*/
+    list-style-type: none;
+}
+
+nav {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    background-color: #b5b1ac;
+    position: fixed;
+    z-index: 10;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: #093156;
+    text-align: center;
+    /*zorgt ervoor dat er ruimte is rondom de tekst*/
+    padding: 16px;
+    /*doet de underline weg van de link*/
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+body {
+    background-color: #f0efe8;
+    /*als ge geen witte spaties aan de zijdes van de pagina wilt
+    Doe eventueel margin: 0px; weg als ge het verschil wilt zien*/
+    margin: 0px;
+    /*haalt de horizontale scrollbar weg*/
+    overflow-x: hidden;
+
+}
+
+#banner {
+    width: 100%;
+    height: 60vh;
+    background-color: #343740;
+    /*invoegen van de foto om er mee te kunnen werken --> img is hier te beperkt voor*/
+    background: url(Assets/banner.jpg) center;
+    /*zoals het zegt, werkt als 'cover'*/
+    background-size: cover;
+}
+
+
+#welcome {
+    width: 70%;
+    /*zorgt dat het tekst vakske in het midden gezet word*/
+    margin: auto;
+    /*centreer de text in het midden*/
+    text-align: center;
+    /*maakt de hoogte variabel*/
+    height: auto;
+    /**/
+    margin-top: 50px;
+    /*werkt samen met height auto en geeft de vereiste hoogte mee*/
+    overflow: auto;
+    background-color: #b5b1ac;
+}
+
+#newsFeed {
+    margin-top: 10px;
+    /*variabele hoogte*/
+    height: auto;
+    /*variabele breedte*/
+    width: 96%;
+    background-color: #47ad3e;
+    /*variaele left width*/
+    margin-left: 2%;
+    /*variabele right width*/
+    margin-right: 2%;
+    /*zorgt ervoor dat de height mee scaled met de inhoud en in verhouding etzelfde blijft*/
+    overflow: auto;
+}
+
+.news {
+    /*zorgt voor ronde hoeken*/
+    border-radius: 25px;
+
+    width: 30%;
+    height: 58vh;
+    background-color: #343740;
+    float: left;
+    margin: 1.11vw;
+    overflow: hidden;
+}
+
+.foto {
+    height: 50%;
+    width: 100%;
+    background-color: #4f8cef;
+    overflow: hidden;
+}
+
+.news img {
+    width: 100%;
+}
+
+.line {
+    width: 100vw;
+    height: 10px;
+    background-color: #50cb45;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #343740;
+    height: 100px;
+    width: 100vw;
+    /*volgende 3 eigenschappen zorgen ervoor dat de tekst in het midden van de footer terecht komt*/
+    vertical-align: middle;
+    text-align: center;
+    line-height: 100px;
+
+}
+.opsomming{
+    background-color: #bebec1;
+    padding: 1%;
+    display: block;
+
+    color: whitesmoke;
+    float: left;
+    width: 48%;
+    height: 100%;
+}
+.inhoud{
+    background-color: #97979a;
+    padding: 1%;
+
+    color: whitesmoke;
+    text-align: right;
+    float: right;
+    width: 48%;
+    height: 100%;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+
+    #newsFeed {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .news {
+        width: 45vw;
+        margin: 1.2vw;
+    }
+
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+
+    #newsFeed {
+        width: 100vw;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .news {
+        margin: 0 10px 0 10px;
+        width: 100vw;
+    }
+}

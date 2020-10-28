@@ -1,0 +1,87 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    margin-top: 0;
+    width: 100%;
+    height: auto;
+    background-color: #b5b1ac;
+    position: fixed;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: #093156;
+    /*zorgt ervoor dat er ruimte is rondom de tekst*/
+    padding: 16px;
+    /*doet de underline weg van de link*/
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+body {
+    background-color: #f0efe8;
+    /*als ge geen witte spaties aan de zijdes van de pagina wilt
+    Doe eventueel margin: 0px; weg als ge het verschil wilt zien*/
+    margin: 0;
+
+}
+
+h1 {
+    padding-top: 80px;
+    text-align: center;
+}
+
+label {
+    padding: 10px;
+    width: 300px;
+    display: inline-block;
+    padding-right: 0
+}
+
+input {
+    width: 300px;
+}
+#opmerking {
+    width: 300px;
+    height: 150px;
+}
+
+#Akkoord {
+    width: fit-content;
+    size: 10px;
+    margin: 0;
+}
+
+#Mailbox {
+    width: fit-content;
+    size: 10px;
+    margin: 0;
+}
+#checkboxjes{
+    /*vult overige whitespace op met margin*/
+    margin: auto;
+    /*maakt het element even breed als de browser window*/
+    width: 40%;
+    /*volgende 2 werken samen om de height automatisch aan de inhoud van checkboxjes aan te passen*/
+    height: auto;
+    overflow: auto;
+}
+.checkbox{
+    /*deelt de parent container (checkboxjes) op in 2 delen*/
+    width: 50%;
+    /*zet de 2 verschillende boxjes langhs elkaar*/
+    float: left;
+}
+#submit{
+    margin-top: 20px;
+}

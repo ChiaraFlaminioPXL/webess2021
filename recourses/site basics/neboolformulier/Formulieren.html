@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulieren</title>
+    <link rel="stylesheet" href="FormStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="Positionering.html">Positionering</a></li>
+        <li><a href="Tabellen.html">Tabellen</a></li>
+        <li><a href="Formulieren.html">Formulieren</a></li>
+    </ul>
+</nav>
+<section>
+    <h1>Contact</h1>
+
+    <form>
+        <label for="Achternaam">Achternaam:</label>
+        <input type="text" id="Achternaam" required> <br>
+        <label for="Voornaam">Voornaam:</label>
+        <input type="text" maxlength="10" id="Voornaam" required> <br>
+        <label for="Email">E-mail:</label>
+        <input type="text" id="Email" placeholder="studentennummer@student.pxl.be" required> </br>
+        <label for="Vraag">Selecteer categorie vraag:</label>
+
+        <input list="vraag" name="vraag" required/>
+        <br>
+        <datalist id="vraag">
+            <option value="Abonnement">
+            <option value="Studentenkorting">
+            <option value="Acties">
+            <option value="Uitschrijven">
+            <option value="Anders...">
+        </datalist>
+        <label for="opmerking">Vraag:</label>
+        <input type="text" id="opmerking">
+        <br>
+        <article id="checkboxjes">
+            <article class="checkbox">
+                <input type="checkbox" id="Akkoord" name="Akkoord">
+                <label for="Akkoord">Ik ga akkoord met de algemene voorwaarden.</label>
+            </article>
+            <article class="checkbox">
+                <input type="checkbox" id="Mailbox" name="Akkoord">
+                <label for="Mailbox">Ik wil updates over opkomende acties.</label>
+            </article>
+        </article>
+        <input type="submit" id="submit" class="button" value="Verzenden">
+    </form>
+</section>
+</body>
+</html>

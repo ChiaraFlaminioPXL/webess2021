@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box
+}
+
+
+body{
+    font-family: Roboto, serif;
+    background-color: #ededed;
+    color: #343740;
+}
+h2{
+    border-bottom: black solid;
+
+}
+
+nav{
+    background-color:  rgb(87, 222, 135);
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+}
+
+ul{
+    list-style-type: none;
+
+}
+li{
+    font-size: large;
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #093156;
+    text-transform: uppercase;
+
+
+}
+nav ul li a:hover{
+    color: blue;
+}
+div{
+    position: relative;
+}
+
+div h1{
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+    right: 2.5%;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 300;
+    border: none;
+}
+
+.foto_100{
+    width: 100%;
+}
+.links{
+    float: left;
+    width: auto;
+    height: 25px;
+    margin-top: 15px;
+}
+
+
+
+
+table{
+    clear: both;
+    width: 100%;
+    padding-top: 30px;
+}
+th, td{
+    text-align: center;
+    color: white;
+
+}
+footer{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin-top: 200px;
+    clear: both;
+}
+.transparant{
+    background-color: #b5d8b9;
+}
+.transparant1{
+    background-color: #368050;
+}
+.kleurTabel{
+    background-color: #326544;
+}
+.kleurTabel1{
+    background-color: #85d38e;
+}
+#white{
+    color: white;
+}
+.container{
+    width: 1050px;
+    position: relative;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1000px){
+    .container {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .container{
+        width: 95%;
+    }
+}

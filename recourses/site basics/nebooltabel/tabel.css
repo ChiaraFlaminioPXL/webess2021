@@ -1,0 +1,28 @@
+body {
+    background-color: darkkhaki;
+    color: white;
+}
+table {
+    border: white 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+thead{
+    background-color: black;
+}
+
+tbody{
+    background-color: forestgreen;
+}
+
+tfoot {
+    background-color: black;
+}
+
+td:first-of-type{
+    text-align: left;
+}
+tbody tr:nth-child(even){
+    background-color: darkred;
+}
