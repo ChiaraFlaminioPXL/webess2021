@@ -1,0 +1,13 @@
+table {
+    position: center;
+    border: 1px solid #000000;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.noborder {
+    border: 0;
+}

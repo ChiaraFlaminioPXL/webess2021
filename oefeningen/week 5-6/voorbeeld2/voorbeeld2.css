@@ -1,0 +1,32 @@
+body {
+    background-color: #cfcfcf;
+}
+table {
+    width: 500px;
+    position: center;
+    text-align: center;
+    border-collapse: collapse;
+    caption-side: bottom;
+    table-layout: fixed;
+}
+
+.white {
+    color: #ffffff;
+}
+
+td,th {
+    border: 2px solid #000000;
+}
+thead {
+    background-color: #ffffff;
+}
+
+tbody {
+    background-color: #0a2e52;
+}
+tbody tr:nth-child(even){
+    background-color: #acacac;
+}
+tfoot {
+    background-color: #3f7f95;
+}

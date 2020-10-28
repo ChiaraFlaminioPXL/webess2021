@@ -1,0 +1,30 @@
+#tekst1 {
+    font-style: italic;
+    color: #0ca8ec;
+}
+
+#tekst2 {
+    font-style: oblique;
+    color: #0d642e;
+}
+
+#tekst3 {
+    font-style: italic;
+    font-family: Verdana, Arial, sans-serif;
+    color: #0c7f31;
+}
+
+#tekst4 {
+    font-style: normal;
+    color: #00aa88;
+}
+
+#tekst5 {
+    font-style: italic;
+    color: #00bcd4;
+}
+#rechts {
+    float: right;
+    background-color: #FF0000;
+    color: #ffffff;
+}

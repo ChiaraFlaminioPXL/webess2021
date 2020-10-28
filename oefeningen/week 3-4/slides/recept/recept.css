@@ -1,0 +1,25 @@
+body {
+    background: lightgrey;
+}
+h1 {
+    color: darkgreen;
+    font-family: Verdana, Arial, sans-serif;
+}
+h2 {
+    font-size: 18px;
+    font-style: italic;
+}
+iframe {
+    width: 315px;
+    height: 175px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: white;
+}
+a:visited {
+    color: cadetblue;
+}
